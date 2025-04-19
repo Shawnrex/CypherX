@@ -1,15 +1,15 @@
 //-------------------[ BOT SETTINGS ]------------------// 
 
-// @project_name : CypherX
-// @author : TYLOR
-// @youtube : https://www.youtube.com/@heyits_tylor
-// @instagram : heyits_tylor
+// @project_name : S-REX
+// @author : REX
+// @youtube : https://www.youtube.com/@Shawn_rex
+// @instagram : Shawn001
 // @telegram : t.me/heyits_tylor
-// @github : Dark-Xploit
+// @github : Shawnrex
 // @tiktok : heyits_tylor
-// @whatsapp : +254754783972
+// @whatsapp : +2348132160559
 
-//----------------------[ CYPHER-X ]----------------------//
+//----------------------[ S-REX ]----------------------//
 
 const fs = require('fs')
 const { color } = require('./lib/color')
@@ -23,23 +23,23 @@ global.SESSION_ID = process.env.SESSION_ID || ''
 
 //--------------------[ BOT NAME ]----------------------//
 
-global.botname = process.env.BOT_NAME || 'CypherX' 
+global.botname = process.env.BOT_NAME || 'S-REX' 
 
 //-----------------[ OWNER NUMBER ]------------------//
 
-global.ownernumber = process.env.OWNER_NUMBER || '254754783972' 
+global.ownernumber = process.env.OWNER_NUMBER || '2348132160559' 
 
 //-----------------[ OWNER NAME ]------------------//
 
-global.ownername = process.env.OWNER_NAME || 'Tylor' 
+global.ownername = process.env.OWNER_NAME || 'S-REX' 
 
 //------------[ STICKER PACKNAME ]-----------------//
 
-global.packname = process.env.STICKER_PACK_NAME || "Cypher" 
+global.packname = process.env.STICKER_PACK_NAME || "S" 
 
 //--------------[ STICKER AUTHOR NAME ]------------//
 
-global.author = process.env.STICKER_AUTHOR_NAME || "X" 
+global.author = process.env.STICKER_AUTHOR_NAME || "REX" 
 
 //----------------------[ TIMEZONE ]--------------------//
 
@@ -57,13 +57,13 @@ global.plink = process.env.PLINK || "https://www.instagram.com/heyits_tylor?igsh
 
 //------------------[ WATERMARK ]--------------------//
 
-global.wm = process.env.GL_WM || "©CypherX"
+global.wm = process.env.GL_WM || "©S-REX"
 
 //---------------------[ REPLIES ]-----------------------//
 
 global.mess = { 
   done: '*Done*', 
-  success: '©CypherX', 
+  success: '©S-REX', 
   owner: `*You don't have permission to use this command!*`, 
   group: '*This feature becomes available when you use it in a group!*', 
   admin: '*You’ll unlock this feature with me as an admin!*', 
@@ -85,4 +85,4 @@ fs.watchFile(file, () => {
   require(file)
 })
 
-//----------------------[ CYPHER-X ]----------------------//
+//----------------------[ S-REX ]----------------------//
