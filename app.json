@@ -1,10 +1,10 @@
 {
-  "name": "CypherX",
+  "name": "S-REX",
   "version": "1.4.5",
-  "description": "CypherX, the best WhatsApp Bot",
+  "description": "S-REX, the best WhatsApp Bot",
   "logo": "https://i.ibb.co/Q4QCHYd/copilot-image-1739572393172.jpg",
   "keywords": ["whatsapp", "bot", "md"],
-  "repository": "https://github.com/Dark-Xploit/CypherX",
+  "repository": "https://github.com/Shawnrex/CypherX",
   "stack": "container",
   "addons": [
     {
@@ -22,17 +22,17 @@
     },
     "BOT_NAME": {
       "description": "Enter your bot name here",
-      "value": "CypherX",
+      "value": "S-REX",
       "required": false
     },
     "OWNER_NUMBER": {
-      "description": "Enter your number here, starting with country code E.g 2547xxxxxxxx",
-      "value": "",
+      "description": "Enter your number here, starting with country code E.g 2347xxxxxxxx",
+      "value": "2348132160559",
       "required": true
     },
     "OWNER_NAME": {
       "description": "Enter your name here",
-      "value": "",
+      "value": "S-REX",
       "required": true
     },
     "TIMEZONE": {
